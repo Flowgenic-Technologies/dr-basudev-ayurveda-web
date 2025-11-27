@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { MapPin, Clock, Phone, Building2 } from "lucide-react";
-import clinicImage from "@/assets/clinic-interior.jpg";
+import clinicImage from "@/assets/pasal.jpg";
 
 const Clinic = () => {
   const ref = useRef(null);
@@ -53,7 +53,7 @@ const Clinic = () => {
                   alt="Samata Ayurved Upachar Kendra Interior"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent" />
+                {/* <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent" /> */}
               </div>
               {/* Decorative Element */}
               <div className="absolute -z-10 -top-6 -left-6 w-3/4 h-3/4 bg-primary/10 rounded-2xl" />

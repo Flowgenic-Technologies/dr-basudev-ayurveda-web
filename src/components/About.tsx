@@ -78,10 +78,12 @@ const About = () => {
               <div className="aspect-square bg-muted rounded-2xl overflow-hidden shadow-large relative">
                 <div className="absolute inset-0 bg-gradient-herbal opacity-20" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center p-8">
+                 
+                 <img src="./basudev1.png" alt="" />
+                  {/* <div className="text-center p-8">
                     <Leaf className="w-24 h-24 text-primary mx-auto mb-4 opacity-50" />
                     <p className="text-muted-foreground">Dr. Basudev Lamsal</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* Decorative Element */}
@@ -119,7 +121,7 @@ const About = () => {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 bg-card p-8 rounded-2xl shadow-medium"
           >
             <Counter end={23} label="Years Experience" />
-            <Counter end={1000} label="Patients Treated" />
+            <Counter end={10000} label="Patients Treated" />
             <div className="text-center">
               <div className="text-5xl font-bold text-primary font-playfair mb-2 flex items-center justify-center gap-2">
                 <Leaf className="w-10 h-10" />
