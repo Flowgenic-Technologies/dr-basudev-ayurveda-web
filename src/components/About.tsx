@@ -78,8 +78,8 @@ const About = () => {
               <div className="aspect-square bg-muted rounded-2xl overflow-hidden shadow-large relative">
                 <div className="absolute inset-0 bg-gradient-herbal opacity-20" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                 
-                 <img src="./basudev1.png" alt="" />
+
+                  <img src="./basudev1.png" alt="" />
                   {/* <div className="text-center p-8">
                     <Leaf className="w-24 h-24 text-primary mx-auto mb-4 opacity-50" />
                     <p className="text-muted-foreground">Dr. Basudev Lamsal</p>
@@ -98,16 +98,16 @@ const About = () => {
               className="space-y-6"
             >
               <p className="text-lg text-foreground leading-relaxed">
-                Dr. Basudev Lamsal is a highly experienced Ayurvedic Doctor (BAMS, Tribhuvan University) 
-                specializing in <span className="text-primary font-semibold">Ayurved Chikitsa</span>. 
+                Dr. Basudev Lamsal is a highly experienced Ayurvedic Doctor (Degree / License No.:BAMS,IOA ,NSU (1112) MHED.TU.)
+                specializing in <span className="text-primary font-semibold">Ayurved Chikitsa</span>.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                With over 23 years of dedicated practice, he has successfully treated patients from multiple 
-                cities across Nepal using holistic, natural, and time-tested healing methods rooted in 
+                With over 20 years of dedicated practice, he has successfully treated patients from multiple
+                cities across Nepal using holistic, natural, and time-tested healing methods rooted in
                 ancient Ayurvedic wisdom.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                His approach combines traditional Ayurvedic treatments with personalized care, ensuring 
+                His approach combines traditional Ayurvedic treatments with personalized care, ensuring
                 each patient receives the most effective and natural healing path.
               </p>
             </motion.div>
@@ -120,7 +120,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="grid grid-cols-1 md:grid-cols-3 gap-8 bg-card p-8 rounded-2xl shadow-medium"
           >
-            <Counter end={23} label="Years Experience" />
+            <Counter end={20} label="Years Experience" />
             <Counter end={10000} label="Patients Treated" />
             <div className="text-center">
               <div className="text-5xl font-bold text-primary font-playfair mb-2 flex items-center justify-center gap-2">

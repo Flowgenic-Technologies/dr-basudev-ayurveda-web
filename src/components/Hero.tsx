@@ -44,7 +44,7 @@ const Hero = () => {
                 Ayurvedic Doctor (BAMS)
               </p>
               <p className="text-xl md:text-2xl text-muted-foreground">
-                23+ Years of Expertise in Ayurved Chikitsa & Holistic Healing
+                12+ Years of Expertise in Ayurved Chikitsa & Holistic Healing
               </p>
             </motion.div>
 
@@ -54,7 +54,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Bringing ancient wisdom and modern wellness together for natural, 
+              Bringing ancient wisdom and modern wellness together for natural,
               effective treatment at Samata Ayurved Upachar Kendra
             </motion.p>
 

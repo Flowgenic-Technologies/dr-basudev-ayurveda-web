@@ -45,11 +45,11 @@
 }
 
 
-#lovable-edit-button,
+/* #lovable-edit-button,
 .lovable-edit-button,
 #lovable-badge,
 [data-testid="lovable-edit-button"] {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
-}
+} */
