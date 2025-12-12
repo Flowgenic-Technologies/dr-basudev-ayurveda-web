@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { 
-  Leaf, 
-  Droplets, 
-  Wind, 
-  Activity, 
-  Pill, 
-  Heart 
+import {
+  Leaf,
+  Droplets,
+  Wind,
+  Activity,
+  Pill,
+  Heart
 } from "lucide-react";
 
 const treatments = [
@@ -19,7 +19,7 @@ const treatments = [
   {
     icon: Activity,
     title: "Ksharsutra",
-    description: "Ancient surgical technique for treating fistulas and hemorrhoids naturally",
+    description: " Ancient and best surgical technique for treating piles and fistula naturally",
   },
   {
     icon: Wind,
@@ -90,7 +90,7 @@ const Specializations = () => {
                 <div className="relative h-full bg-card rounded-2xl p-8 shadow-soft hover:shadow-large transition-all duration-300 border border-border overflow-hidden">
                   {/* Background Gradient on Hover */}
                   <div className="absolute inset-0 bg-gradient-herbal opacity-0 group-hover:opacity-5 transition-opacity duration-300" />
-                  
+
                   {/* Icon */}
                   <div className="relative mb-6">
                     <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">

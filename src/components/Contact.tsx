@@ -82,8 +82,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                    <a 
-                      href="tel:9851061380" 
+                    <a
+                      href="tel:9851061380"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
                       +977 9851061380
@@ -100,11 +100,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                    <a 
-                      href="mailto:lamsalbasu100@gmail.com" 
+                    <a
+                      href="mailto:lamsalbasu100@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors break-all"
                     >
-                      lamsalbasu100@gmail.com
+                      dr.basudevlamsal@gmail.com
                     </a>
                   </div>
                 </motion.div>
